@@ -1,0 +1,8 @@
+[package]
+name = "honywell_ean_scanner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+serialport = "4.6.1"
