@@ -5,6 +5,7 @@ use std::{io::Read, time::Duration};
 
 #[tokio::main]
 async fn main() -> Result<(), Error> {
+    //You have to choose right rs232 port
     let mut port = serialport::new("COM4", 115_200)
         .timeout(Duration::from_millis(10))
         .open_native()?;
