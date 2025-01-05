@@ -1,1 +1,1 @@
-Sample project for honywell EAN scanner
+Sample project for Honywell EAN scanner
